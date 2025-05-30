@@ -1,0 +1,17 @@
+name: ecoles_haraka_app
+description: تطبيق المدارس الابتدائية بالمغرب
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  csv: ^5.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ecoles_haraka_2023.csv
